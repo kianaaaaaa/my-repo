@@ -11,7 +11,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '12.16.2'
+        node-version: '16.14.0'
     # 拉取github仓库代码
     - name: Checkout
       uses: actions/checkout@v2
