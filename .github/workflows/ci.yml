@@ -26,7 +26,7 @@ jobs:
           npm run build
     # 执行部署
     - name: 部署
-      uses: easingthemes/ssh-deploy@v2.1.5
+      uses: easingthemes/ssh-deploy@v2.2.11
       with:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }} # 指定密钥，key即密钥名称
         ARGS: '-rltgoDzvO --delete'
